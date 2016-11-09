@@ -1,0 +1,9 @@
+polynomials - some things to help deal with polynomials.
+
+currently includes a parser.
+
+planned are:
+- division
+- addition/subtraction
+- multiplication
+- differentiation
