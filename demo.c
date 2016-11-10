@@ -30,6 +30,8 @@ int main() {
         myPC = polynomial_subtract(myPA, myPB);
         polynomial_print(myPC, &printf);
         
+        printf("Value when x=2: %Lf\n", polynomial_calc(myPC, 2));
+        
         free(myPA);
         free(myPB);
         free(myPC);

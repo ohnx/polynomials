@@ -14,3 +14,16 @@ polynomial polynomial_subtract(const polynomial a, const polynomial b) {
     
     return p;
 }
+
+long double polynomial_calc(const polynomial a, long double x) {
+    int i;
+    long double v = 0.0;
+    
+    for (i = 0; i <= a->degree; i++) {
+        if (a->values[i].coefficient != 0.0) {
+            v += a->values[i].coefficient * pow(x, a->values[i].degree);
+        }
+    }
+    
+    return v;
+}

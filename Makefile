@@ -1,4 +1,4 @@
-CFLAGS=-I include/ -Wall -Werror
+CFLAGS=-I include/ -Wall -Werror -lm
 OBJ=logger.o parser.o polynomial.o demo.o pbm.o
 OUTPUT=demo
 
