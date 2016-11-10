@@ -1,5 +1,5 @@
 CFLAGS=-I include/ -Wall -Werror
-OBJ=logger.o parser.o polynomial.o demo.o
+OBJ=logger.o parser.o polynomial.o demo.o pbm.o
 OUTPUT=demo
 
 default: demo
